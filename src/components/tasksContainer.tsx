@@ -1,4 +1,4 @@
-import React, { useState, SetStateAction, Dispatch } from "react";
+import { useState, SetStateAction, Dispatch } from "react";
 import { tasks as dummyTasks } from "../data/tasks";
 import { Tasks } from ".";
 import { ITask } from "../types";

@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Droppable } from "react-beautiful-dnd";
 import { ITask } from "../types";
 import { Task } from ".";
