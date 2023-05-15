@@ -1,6 +1,6 @@
+import React, { useState, SetStateAction, Dispatch } from "react";
 import { tasks as dummyTasks } from "../data/tasks";
 import { Tasks } from ".";
-import { useState, SetStateAction, Dispatch } from "react";
 import { ITask } from "../types";
 
 import { DragDropContext } from "react-beautiful-dnd";
@@ -10,7 +10,6 @@ const IN_PROGRESS = "in-progress";
 const COMPLETED = "completed";
 
 export const TasksContainer = () => {
-  const [tasks, setTasks] = useState(dummyTasks);
   const [notStartedTasks, setNotStartedTasks] = useState(
     dummyTasks?.filter((task) => task?.status === NOT_STARTED)
   );

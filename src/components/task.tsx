@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import { Draggable } from "react-beautiful-dnd";
 
 import { ITask } from "../types";
